@@ -34,7 +34,7 @@ External validation:
   - `data/external/GSE14520_expression_matrix_reordered.csv`
 
 Web-based cross-platform check (manual logging):
-- **GEPIA2** (LIHC; median split 50%; OS/DFS in months)
+- **GEPIA3** (LIHC; median split 50%; OS/DFS in months)
 
 ## Repository structure
 
