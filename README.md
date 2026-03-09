@@ -64,3 +64,5 @@ Rscript 07_module_construction.R
 Rscript 08_validation_GSE14520.R
 Rscript 09_random_null_test.R
 Rscript 10_figures_tables.R
+
+[![DOI](https://zenodo.org/badge/1172222258.svg)](https://doi.org/10.5281/zenodo.18918427)
