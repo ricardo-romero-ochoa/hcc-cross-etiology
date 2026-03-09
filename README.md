@@ -1,5 +1,7 @@
 # Cross-etiology transcriptomic conservation in hepatocellular carcinoma
 
+[![DOI](https://zenodo.org/badge/1172222258.svg)](https://doi.org/10.5281/zenodo.18918427)
+
 This repository contains the full R workflow used to reproduce the analyses in the manuscript:
 
 **“Cross-etiology transcriptomic conservation in hepatocellular carcinoma reveals opposing proliferation and hepatocyte-loss programs validated across cohorts.”**
@@ -65,4 +67,4 @@ Rscript 08_validation_GSE14520.R
 Rscript 09_random_null_test.R
 Rscript 10_figures_tables.R
 
-[![DOI](https://zenodo.org/badge/1172222258.svg)](https://doi.org/10.5281/zenodo.18918427)
+
