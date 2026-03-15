@@ -51,6 +51,14 @@ Web-based cross-platform check (manual logging):
 - Bioconductor packages (limma, GSVA, msigdbr, annotation packages)
 - PDF tools (optional): `qpdf` R package is used to combine PDFs
 
+## Note on external validation
+Expression matrix from GSE14520 is needed for external validation. Run this Python script to obtain it and place it in the right directory
+
+```bash
+pip install GEOparse pandas numpy
+python exp_matrix_from_geo_GSE14520_reordered.py
+```
+
 ## Running the pipeline
 
 From the repo root:
@@ -66,5 +74,5 @@ Rscript 07_module_construction.R
 Rscript 08_validation_GSE14520.R
 Rscript 09_random_null_test.R
 Rscript 10_figures_tables.R
-
+```
 
